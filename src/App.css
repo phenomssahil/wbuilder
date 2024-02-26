@@ -1,0 +1,184 @@
+.App{
+  width: 1622px;
+  height: 2960px;
+  background-color: #FBFCFD;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+.Navbar{
+  width:100%;
+height: 64px;
+background-color: #212731;
+
+}
+.Headings{
+  display:flex;
+  position: absolute;
+  top: 13px;
+  margin-left: 530px;
+}
+.text{
+  color: white;
+  margin-left:50px
+}
+.text1{
+  color: #727D87;
+}
+.text2{
+  width: 1006px;
+height: 60px;
+position: absolute;
+top: 20px;
+font-family: inter;
+font-size: 48px;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+}
+#inp1{
+width: 258px;
+height: 37px;
+border-radius: 8px;
+border: 1px;
+
+}
+.Heading2{
+  width: 1024px;
+  height: 155px;
+  position: absolute;
+  top: 84px;
+  left: 284px;
+}
+.line{
+  position:absolute;
+  width: 1024px;
+height: 1.33px;
+top: 94.67px;
+background-color: #E1E4E6;
+}
+#btn button{
+  color: #4B5665;
+  width: 105px;
+height: 36px;
+top: 235px;
+left: 284px;
+border-radius: 12px;
+border: 0;
+}
+.container{
+display: flex;
+flex-direction: column;
+width: 1024px;
+height: 1600px;
+position: relative;
+top: 287px;
+left: 284px;
+}
+.box{
+  width: 500px;
+height: 116px;
+position: absolute;
+top: 150px;
+left: 230px;
+border-radius: 12px;
+background-color: #FFF4ED;
+
+}
+.box2{
+  width: 24px;
+height: 24px;
+position:absolute;
+top: 10px;
+left: 5px;
+background-color:white;
+margin-bottom: 8px;
+color: #1B88F4;
+}
+.text8{
+  width: 505px;
+height: 30px;
+margin-bottom: 8px;
+border-radius: 12px;
+}
+.box3{
+  width: 505px;
+height: 116px;
+position: absolute;
+top: 280px;
+left: 220px;
+border-radius: 12px;
+}
+.text10{
+  width: 495px;
+height: 44px;
+top: 1837px;
+left: 292px;
+position: absolute;
+font-size: 32px;
+font-weight: 400;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+}
+.main-content{
+  display: flex;
+  gap: 20px;
+}
+.Text{
+  width: 102px;
+height: 24px;
+position:absolute;
+color:white;
+top: 136px;
+left: 295px;
+
+}
+.contact{
+  width: 1622px;
+  height: 452px;
+  top: 432px;
+  position:relative;
+  background-color:#212731;
+}
+@media(max-width:500px){
+  .container{
+   left:0px;
+  }
+  .contact{
+    position: fixed end;
+   top:632px;
+   zoom: 120%;
+  }
+  .App{
+    overflow-y: hidden scroll;
+    overflow-x: hidden;
+  }
+  .main-content{
+   display: none;
+  }
+  .Heading2{
+    zoom: 120%;
+    left: 20px;
+  }
+  #btn{
+    zoom:120%;
+  }
+  .Headings{
+    margin-left:200px;
+  }
+  .Navbar{
+    zoom:150%;
+  }
+  .text10{
+    display: none;
+  }
+  .text1{
+    zoom:120%;
+    white-space: nowrap;
+  }
+  .text2{
+    margin-bottom: 20px;
+  }
+}
